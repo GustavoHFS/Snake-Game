@@ -1,4 +1,4 @@
-<h1 align="center"> Snake Game (Lista de Tarefas) </h1>
+<h1 align="center"> Snake Game </h1>
 
 <p> Jogo interativo Snake Game (Jogo da Cobrinha), feito para aplicar, testar e validar alguns fundamentos vistos em estudos.<br/>
 
