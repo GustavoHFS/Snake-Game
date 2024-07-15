@@ -1,6 +1,8 @@
 const canvas = document.querySelector("canvas")
 const ctx = canvas.getContext('2d')
 
+const audio = new Audio('../audio/foodsound.mp3')
+
 const size = 30
 
 const snake = [{ x:270, y:240 }
@@ -90,6 +92,7 @@ const checkEat = () => {
 
     if (head.x == food.x && head.y == food.y){
         snake.push(head)
+        audio.play()
 
         food.x = randomPosition();
         food.y = randomPosition();
