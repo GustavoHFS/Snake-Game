@@ -1,7 +1,7 @@
 const canvas = document.querySelector("canvas")
 const ctx = canvas.getContext('2d')
 
-const audio = new Audio('../audio/foodsound.mp3')
+const audio = document.getElementById('foodsound');
 
 const size = 30
 
